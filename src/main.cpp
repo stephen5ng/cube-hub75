@@ -11,18 +11,18 @@ void setup() {
   Serial.begin(112500);
 
   HUB75_I2S_CFG::i2s_pins _pins = {
-    25,  //R1_PIN,
+    33,  //R1_PIN,
     26,  //G1_PIN,
-    27,  //B1_PIN,
+    25,  //B1_PIN,
     14,  //R2_PIN,
-    12,  //G2_PIN,
+    27,  //G2_PIN,
     13,  //B2_PIN,
-    23,  //A_PIN,
-    19,  //B_PIN,
-    5,   //C_PIN,
+    5,   //A_PIN,
+    21,  //B_PIN,
+    4,   //C_PIN,
     17,  //D_PIN,
-    32,  //E_PIN,
-    4,   //LAT_PIN,
+    12,  //E_PIN,
+    2,   //LAT_PIN,
     15,  //OE_PIN,
     16,  //CLK_PIN
   };
